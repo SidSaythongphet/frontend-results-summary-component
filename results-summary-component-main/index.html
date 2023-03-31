@@ -9,19 +9,32 @@
   <title>Frontend Mentor | Results summary component</title>
 
   <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
 
   <div class="result-summary">
 
-    <div class="result">
+    <div class="results grid-flow" data-spacing="large">
         
-      Your Result
+      <h1 class="result-title">
+        Your Result
+      </h1>
 
-      76 of 100
+      <p class="result-score">
+        <span>76</span> of 100
+      </p>
 
-      Great
-      You scored higher than 65% of the people who have taken these tests.
+      <div class="grid-flow">
+
+        <h1 class="result-rank">
+          Great
+        </h1>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+
+      </div>
       
     </div>
 
